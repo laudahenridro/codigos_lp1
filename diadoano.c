@@ -1,3 +1,4 @@
+// Código que retorna o dia do ano, verificando se o ano vigente é bissexto
 #include <stdio.h>
 
 int bissexto(int,int*);
