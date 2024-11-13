@@ -1,3 +1,4 @@
+// Código que imprime o tamanho dos tipos em C
 #include <stdio.h>
 
 int main(){
