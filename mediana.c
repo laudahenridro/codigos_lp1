@@ -1,3 +1,5 @@
+// Código que encontra a mediana de uma lista encadeada, além de criar, ver o tamanho da lista, imprimir e deletar
+
 #include <stdio.h>
 #include <stdlib.h>
 
