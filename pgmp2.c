@@ -1,3 +1,5 @@
+// Código que faz a leitura de uma imagem PGM do tipo P2 caso ele exista, com nome do arquivo inserido pelo usuário, e a imprime no monitor.
+
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
@@ -22,7 +24,8 @@ int main(){
     leituraCabecalho(&linha, &coluna, &pixel, fp);
     M = criacaoMatriz(linha, coluna);
     preencheMatriz(M, linha, coluna, pixel, fp);
-    
+
+    //Impressão da imagem PGM
     for(int j = 0; j<(linha); j++){
         for(int k = 0; k<(coluna); k++){
             if(k == ((coluna)-1)){
